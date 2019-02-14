@@ -12,30 +12,29 @@ public class Student {
 		phoneNumber = phone_Number;
 		gradYear = grad_Year;
 	}
-	
-	public String getName(String studentName) 
+	public String getName() 
 	{
-		return studentName;		
+		return name;		
 	}
-	public int getGradeLevel(int studentGradeLevel)
+	public int getGradeLevel()
 	{
-		return studentGradeLevel;
+		return gradeLevel;
 	}
-	public int getPhoneNumber(int studentPhoneNumber)
+	public int getPhoneNumber()
 	{
-		return studentPhoneNumber;
+		return phoneNumber;
 	}
-	public int getGradYear(int studentGradYear)
+	public int getGradYear()
 	{
-		return studentGradYear;
+		return gradYear;
 	}
 	public int nextGrade(int studentGradYear)
 	{
 		return studentGradYear += 1;
 	}
-	public void setPhoneNumber()
+	public void setPhoneNumber(int newPhoneNumber)
 	{
-		phoneNumber = 0000000000;
+		phoneNumber = newPhoneNumber;
 	}
 
 }
